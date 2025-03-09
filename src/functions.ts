@@ -73,6 +73,14 @@ function printMax(x: number, y: number): number {
   const max = x >= y ? x : y;
   console.log(max);
   return max;
+
+  // if(x >= y){
+  //   console.log(x)
+  //   return x
+  // }
+  // return y
+  // console.log(y)
+
   // replace -1 to what you see is fit
 }
 
